@@ -46,6 +46,7 @@ public class Background {
                 scale *= 1.5f;
             }
             batch.draw(textureStar,stars[i].x-8,stars[i].y-8,8,8,16,16,scale,scale,0,0,0,16,16,false,false);
+
         }
     }
 
@@ -53,5 +54,7 @@ public class Background {
         for (int i = 0; i < stars.length; i++) {
             stars[i].update(dt);
         }
+
     }
+
 }
